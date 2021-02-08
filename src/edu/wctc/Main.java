@@ -15,7 +15,7 @@ public class Main {
         while (!maze.isFinished()){
             System.out.println(maze.getCurrentRoomDescription());
             System.out.println(maze.getCurrentRoomExits());
-            System.out.println(">> \nU - Up \n");
+            System.out.println("Choose where to go: \nu - Up \nd - Down \nn - North \ns - South \nw - West \ne - East");
 
             char command = scanner.nextLine().toLowerCase().charAt(0);
 
